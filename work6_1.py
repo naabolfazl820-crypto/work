@@ -1,0 +1,11 @@
+fruits=["bnana","orange","bnana","apple"]
+fruits.append("green fruit")
+fruits.insert(2,"melon")
+fruits.remove("bnana")
+last_item = fruits.pop()
+print(last_item)
+print(fruits.count("bnana"))
+print(fruits.index("orange"))
+fruits.reverse()
+fruits.sort()
+print(fruits)

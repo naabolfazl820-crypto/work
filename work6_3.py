@@ -1,0 +1,15 @@
+student={"name":"reza","age":"15","major":"cumputer"}
+print(student.get("age"))
+print(list(student.keys()))
+print(list(student.values()))
+print(list(student.items()))
+student.update({"city":"tabriz","age":23})
+print(student)
+student.pop
+removed_major=student.pop("major")
+print(removed_major)
+student.setdefault("gpa",18.5)
+print(student)
+#student_copy=student.copy
+#student_copy()
+#print(student_copy)
